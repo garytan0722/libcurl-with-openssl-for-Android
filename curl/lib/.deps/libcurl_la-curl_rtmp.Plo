@@ -1,0 +1,226 @@
+libcurl_la-curl_rtmp.lo: curl_rtmp.c curl_setup.h curl_config.h \
+ ../include/curl/curlbuild.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/types.h \
+ /Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h \
+ /Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h \
+ /Android/toolchain-arm/sysroot/usr/include/stdint.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/_types.h \
+ /Android/toolchain-arm/sysroot/usr/include/machine/_types.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/_wchar_limits.h \
+ /Android/toolchain-arm/sysroot/usr/include/android/api-level.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/cdefs.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/cdefs_elf.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/posix_types.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/stddef.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/compiler.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm/posix_types.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm/types.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/types.h \
+ /Android/toolchain-arm/sysroot/usr/include/machine/kernel.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/sysmacros.h \
+ /Android/toolchain-arm/sysroot/usr/include/inttypes.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/socket.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/socket.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm/socket.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm/sockios.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/sockios.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/uio.h \
+ ../include/curl/curlrules.h \
+ /Android/toolchain-arm/sysroot/usr/include/stdio.h \
+ /Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h \
+ /Android/toolchain-arm/sysroot/usr/include/assert.h curl_setup_once.h \
+ /Android/toolchain-arm/sysroot/usr/include/stdlib.h \
+ /Android/toolchain-arm/sysroot/usr/include/string.h \
+ /Android/toolchain-arm/sysroot/usr/include/malloc.h \
+ /Android/toolchain-arm/sysroot/usr/include/alloca.h \
+ /Android/toolchain-arm/sysroot/usr/include/strings.h \
+ /Android/toolchain-arm/sysroot/usr/include/memory.h \
+ /Android/toolchain-arm/sysroot/usr/include/ctype.h \
+ /Android/toolchain-arm/sysroot/usr/include/errno.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/errno.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm/errno.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm-generic/errno.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm-generic/errno-base.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/stat.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/time.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/time.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/stat.h \
+ /Android/toolchain-arm/sysroot/usr/include/endian.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/endian.h \
+ /Android/toolchain-arm/sysroot/usr/include/machine/endian.h \
+ /Android/toolchain-arm/sysroot/usr/include/time.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm/siginfo.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm-generic/siginfo.h \
+ /Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include/stdbool.h \
+ /Android/toolchain-arm/sysroot/usr/include/unistd.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/select.h \
+ /Android/toolchain-arm/sysroot/usr/include/signal.h \
+ /Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h \
+ /Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h \
+ /Android/toolchain-arm/sysroot/usr/include/limits.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/limits.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/limits.h \
+ /Android/toolchain-arm/sysroot/usr/include/machine/internal_types.h \
+ /Android/toolchain-arm/sysroot/usr/include/machine/limits.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/syslimits.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm/page.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm/signal.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm-generic/signal.h \
+ /Android/toolchain-arm/sysroot/usr/include/asm/sigcontext.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/ucontext.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/user.h \
+ /Android/toolchain-arm/sysroot/usr/include/sys/sysconf.h \
+ /Android/toolchain-arm/sysroot/usr/include/linux/capability.h \
+ /Android/toolchain-arm/sysroot/usr/include/pathconf.h
+
+curl_setup.h:
+
+curl_config.h:
+
+../include/curl/curlbuild.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/types.h:
+
+/Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h:
+
+/Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h:
+
+/Android/toolchain-arm/sysroot/usr/include/stdint.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/_types.h:
+
+/Android/toolchain-arm/sysroot/usr/include/machine/_types.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/_wchar_limits.h:
+
+/Android/toolchain-arm/sysroot/usr/include/android/api-level.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/cdefs.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/cdefs_elf.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/posix_types.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/stddef.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/compiler.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm/posix_types.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm/types.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/types.h:
+
+/Android/toolchain-arm/sysroot/usr/include/machine/kernel.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/sysmacros.h:
+
+/Android/toolchain-arm/sysroot/usr/include/inttypes.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/socket.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/socket.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm/socket.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm/sockios.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/sockios.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/uio.h:
+
+../include/curl/curlrules.h:
+
+/Android/toolchain-arm/sysroot/usr/include/stdio.h:
+
+/Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h:
+
+/Android/toolchain-arm/sysroot/usr/include/assert.h:
+
+curl_setup_once.h:
+
+/Android/toolchain-arm/sysroot/usr/include/stdlib.h:
+
+/Android/toolchain-arm/sysroot/usr/include/string.h:
+
+/Android/toolchain-arm/sysroot/usr/include/malloc.h:
+
+/Android/toolchain-arm/sysroot/usr/include/alloca.h:
+
+/Android/toolchain-arm/sysroot/usr/include/strings.h:
+
+/Android/toolchain-arm/sysroot/usr/include/memory.h:
+
+/Android/toolchain-arm/sysroot/usr/include/ctype.h:
+
+/Android/toolchain-arm/sysroot/usr/include/errno.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/errno.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm/errno.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm-generic/errno.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm-generic/errno-base.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/stat.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/time.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/time.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/stat.h:
+
+/Android/toolchain-arm/sysroot/usr/include/endian.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/endian.h:
+
+/Android/toolchain-arm/sysroot/usr/include/machine/endian.h:
+
+/Android/toolchain-arm/sysroot/usr/include/time.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm/siginfo.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm-generic/siginfo.h:
+
+/Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include/stdbool.h:
+
+/Android/toolchain-arm/sysroot/usr/include/unistd.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/select.h:
+
+/Android/toolchain-arm/sysroot/usr/include/signal.h:
+
+/Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h:
+
+/Android/toolchain-arm/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h:
+
+/Android/toolchain-arm/sysroot/usr/include/limits.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/limits.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/limits.h:
+
+/Android/toolchain-arm/sysroot/usr/include/machine/internal_types.h:
+
+/Android/toolchain-arm/sysroot/usr/include/machine/limits.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/syslimits.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm/page.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm/signal.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm-generic/signal.h:
+
+/Android/toolchain-arm/sysroot/usr/include/asm/sigcontext.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/ucontext.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/user.h:
+
+/Android/toolchain-arm/sysroot/usr/include/sys/sysconf.h:
+
+/Android/toolchain-arm/sysroot/usr/include/linux/capability.h:
+
+/Android/toolchain-arm/sysroot/usr/include/pathconf.h:
